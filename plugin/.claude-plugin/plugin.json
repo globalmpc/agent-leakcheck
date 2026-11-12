@@ -1,0 +1,10 @@
+{
+  "name": "agent-leakcheck",
+  "version": "0.1.0",
+  "description": "Scan what your coding agents can reach (.env files, plaintext tokens, SSH keys, risky modes) with agent-leakcheck.",
+  "author": { "name": "GlobalMPC" },
+  "homepage": "https://github.com/globalmpc/agent-leakcheck",
+  "repository": "https://github.com/globalmpc/agent-leakcheck",
+  "license": "MIT",
+  "keywords": ["security", "privacy", "audit"]
+}

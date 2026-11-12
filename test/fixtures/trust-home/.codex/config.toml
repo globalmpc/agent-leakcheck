@@ -1,0 +1,5 @@
+[mcp_servers.x]
+command = "demo"
+
+[mcp_servers.x.env]
+DEMO_API_KEY = "lc_planted_token_9f8e7d6c5b4a"

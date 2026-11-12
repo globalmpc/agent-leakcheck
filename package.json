@@ -1,0 +1,45 @@
+{
+  "name": "@globalmpc/agent-leakcheck",
+  "version": "0.1.0",
+  "description": "Check what your coding agents (Claude Code, Codex, Cursor, Gemini CLI) can reach on your machine: .env files, plaintext tokens, SSH keys, risky modes.",
+  "type": "module",
+  "bin": {
+    "agent-leakcheck": "bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js test/checks/*.test.js",
+    "test:server": "npm --prefix server test",
+    "lint": "node scripts/lint.js"
+  },
+  "keywords": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli",
+    "security",
+    "privacy",
+    "mcp",
+    "cli"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/globalmpc/agent-leakcheck.git"
+  },
+  "homepage": "https://github.com/globalmpc/agent-leakcheck#readme",
+  "bugs": {
+    "url": "https://github.com/globalmpc/agent-leakcheck/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

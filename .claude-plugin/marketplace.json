@@ -1,0 +1,12 @@
+{
+  "name": "agent-leakcheck",
+  "description": "agent-leakcheck: audit what your coding agents can reach",
+  "owner": { "name": "GlobalMPC" },
+  "plugins": [
+    {
+      "name": "agent-leakcheck",
+      "source": "./plugin",
+      "description": "Run agent-leakcheck from Claude Code and get a plain summary of the findings."
+    }
+  ]
+}

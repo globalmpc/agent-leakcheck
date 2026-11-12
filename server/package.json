@@ -1,0 +1,13 @@
+{
+  "name": "agent-leakcheck-server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Share endpoint and stats page for agent-leakcheck",
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test"
+  }
+}

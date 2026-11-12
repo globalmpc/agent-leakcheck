@@ -1,0 +1,6 @@
+# Upload only what the Vercel Function needs; never local env files.
+/*
+!/api
+!/src
+!/package.json
+!/vercel.json

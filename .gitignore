@@ -1,0 +1,13 @@
+node_modules/
+*.tgz
+.DS_Store
+.vercel/
+.env*
+!.env.example
+tracking/raw/
+*.leakcheck-bak-*
+# Test fixtures plant fake .env files on purpose (trust tests).
+!test/fixtures/**/.env*
+# Local agent setup, not part of the repo.
+/.claude/
+/CLAUDE.md
