@@ -144,4 +144,4 @@ node bin/cli.js       # scan this machine
 
 MIT
 
-An open-source tool from [MPC](https://globalmpc.tech).
+Maintained by [Global MPC (Mineral Project Coin)](https://globalmpc.tech). Official site: https://globalmpc.tech
